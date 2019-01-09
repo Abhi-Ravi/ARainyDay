@@ -23,7 +23,8 @@ def smsTXT(precipCheck):
         message = client.messages.create(
                                       body='BRING A COAT!',
                                       from_='+19014727942',
-                                      to='+19012643111'
+                                      ##where your phone number goes
+				      to=' '
                                   )
         print(message.sid)
 
